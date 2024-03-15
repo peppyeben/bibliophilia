@@ -1,0 +1,150 @@
+{
+    "users": [
+        {
+            "userId": "1",
+            "username": "booklover1",
+            "email": "booklover1@example.com",
+            "password": "password123",
+            "socialMediaId": "",
+            "library": ["1", "2", "3"],
+            "createdAt": "2024-03-14T10:00:00Z",
+            "updatedAt": "2024-03-14T10:00:00Z"
+        },
+        {
+            "userId": "2",
+            "username": "bookworm2",
+            "email": "bookworm2@example.com",
+            "password": "password456",
+            "socialMediaId": "",
+            "library": ["4", "5"],
+            "createdAt": "2024-03-14T11:00:00Z",
+            "updatedAt": "2024-03-14T11:00:00Z"
+        },
+        {
+            "userId": "3",
+            "username": "avidreader3",
+            "email": "avidreader3@example.com",
+            "password": "password789",
+            "socialMediaId": "",
+            "library": ["6"],
+            "createdAt": "2024-03-14T12:00:00Z",
+            "updatedAt": "2024-03-14T12:00:00Z"
+        }
+    ],
+    "books": [
+        {
+            "bookId": "1",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "format": "Paperback",
+            "rating": 4.5,
+            "comments": ["A classic!", "Highly recommended"],
+            "bookmarks": [50, 100],
+            "metadata": {
+                "isbn": "978-0-06-112008-4",
+                "publisher": "HarperCollins",
+                "publicationDate": "1960-07-11",
+                "language": "English"
+            },
+            "uploaderId": "1",
+            "createdAt": "2024-03-14T13:00:00Z",
+            "updatedAt": "2024-03-14T13:00:00Z"
+        },
+        {
+            "bookId": "2",
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian Fiction",
+            "format": "E-book",
+            "rating": 4.8,
+            "comments": ["Thought-provoking", "Must-read"],
+            "bookmarks": [75],
+            "metadata": {
+                "isbn": "978-0-452-28423-4",
+                "publisher": "Harcourt, Brace & World",
+                "publicationDate": "1949-06-08",
+                "language": "English"
+            },
+            "uploaderId": "1",
+            "createdAt": "2024-03-14T14:00:00Z",
+            "updatedAt": "2024-03-14T14:00:00Z"
+        },
+        {
+            "bookId": "3",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classics",
+            "format": "Audiobook",
+            "rating": 4.7,
+            "comments": ["Beautifully written", "Captivating"],
+            "bookmarks": [30, 60],
+            "metadata": {
+                "isbn": "978-0-7432-7356-5",
+                "publisher": "Charles Scribner's Sons",
+                "publicationDate": "1925-04-10",
+                "language": "English"
+            },
+            "uploaderId": "2",
+            "createdAt": "2024-03-14T15:00:00Z",
+            "updatedAt": "2024-03-14T15:00:00Z"
+        },
+        {
+            "bookId": "4",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "format": "Hardcover",
+            "rating": 4.9,
+            "comments": ["Magical!", "A journey of wonder"],
+            "bookmarks": [25, 75],
+            "metadata": {
+                "isbn": "978-0-7475-3269-6",
+                "publisher": "Bloomsbury",
+                "publicationDate": "1997-06-26",
+                "language": "English"
+            },
+            "uploaderId": "2",
+            "createdAt": "2024-03-14T16:00:00Z",
+            "updatedAt": "2024-03-14T16:00:00Z"
+        },
+        {
+            "bookId": "5",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "genre": "Romance",
+            "format": "Paperback",
+            "rating": 4.6,
+            "comments": ["Timeless classic", "Beautifully written"],
+            "bookmarks": [40],
+            "metadata": {
+                "isbn": "978-0-19-953556-9",
+                "publisher": "T. Egerton, Whitehall",
+                "publicationDate": "1813-01-28",
+                "language": "English"
+            },
+            "uploaderId": "2",
+            "createdAt": "2024-03-14T17:00:00Z",
+            "updatedAt": "2024-03-14T17:00:00Z"
+        },
+        {
+            "bookId": "6",
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "genre": "Literary Fiction",
+            "format": "E-book",
+            "rating": 4.4,
+            "comments": ["A compelling read", "Gripping narrative"],
+            "bookmarks": [20, 50],
+            "metadata": {
+                "isbn": "978-0-316-76948-0",
+                "publisher": "Little, Brown and Company",
+                "publicationDate": "1951-07-16",
+                "language": "English"
+            },
+            "uploaderId": "3",
+            "createdAt": "2024-03-14T18:00:00Z",
+            "updatedAt": "2024-03-14T18:00:00Z"
+        }
+    ]
+}
